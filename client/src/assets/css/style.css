@@ -1,0 +1,184 @@
+.logo-font {
+  font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-size: 7.5vw;
+}
+
+.content-text {
+  font-family: "Vibur", cursive;
+  font-size: 40px;
+}
+
+.button-text {
+  font-family: "Vibur", cursive;
+  font-size: 100px;
+}
+
+.plain-text-20 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("../img/Jeff.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-attachment: fixed;
+}
+
+.filter {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  z-index: -1;
+}
+
+.text-orange {
+  color: #f2994a;
+}
+
+.btn-orange {
+  color: #fff;
+  background-color: #ff8315;
+  border-color: #ff8315;
+  margin-bottom: 3rem;
+}
+
+.btn-orange:hover {
+  color: #fff;
+  background-color: #c25a00;
+  border-color: #c25a00;
+}
+
+a:hover {
+  color: transparent;
+}
+
+.text-link {
+  color: #f2994a;
+}
+
+.text-link:hover {
+  color: #c25a00;
+  text-decoration: transparent;
+}
+
+.social-drop {
+  border-radius: 0.25rem 0 0 0.25rem !important;
+  border: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: white;
+}
+.social-input {
+  border-radius: 0 0.25rem 0.25rem 0 !important;
+}
+
+.price-left {
+  border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.price-right {
+  border-radius: 0 0.25rem 0.25rem 0 !important;
+  border: 0px;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  background-color: white;
+}
+
+.user-img {
+  font-size: 5.5vw;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.price-per-kilo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.price-per-kilo .btn-orange {
+  margin-bottom: 0px;
+}
+
+.price-per-kilo.btn {
+  padding: 0.2rem 1rem;
+}
+
+.user-img-detail {
+  font-size: 10vw;
+}
+
+.description {
+  padding: 0.25rem 1rem;
+}
+
+.information-left {
+  padding-left: 0px;
+  padding-right: 2.5px;
+}
+
+.information-right {
+  padding-left: 2.5px;
+  padding-right: 0px;
+}
+
+.border-orange {
+  border: 1px solid #ff8315;
+}
+
+.col-sm-4 {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.popup-background {
+  background-color: rgba(255, 131, 21, 0.9);
+  z-index: 10;
+}
+
+.text-link-forgot {
+  color: #212529;
+}
+
+.text-link-forgot:hover {
+  color: #23272b;
+  text-decoration: transparent;
+}
+
+.user-img-login {
+  font-size: 3vw;
+}
+
+.popup-background p {
+  margin-bottom: 1px;
+}
+
+.login-section {
+  z-index: 100;
+}
+
+.text-link-dark {
+  color: #343a40;
+}
+
+.text-link-dark:hover {
+  color: #1d2124;
+  text-decoration: transparent;
+}
+
+.white-link:hover {
+  color: #a0a0a0 !important;
+}
+
+.create-but {
+  margin-bottom: 1rem;
+}
+
+.pointer {
+  cursor: pointer;
+}
