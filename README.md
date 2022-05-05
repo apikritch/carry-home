@@ -2,7 +2,7 @@ Carry Home (Mockup)
 
 A multi-page website for listing the spare weight of baggage and finding people who will be travelling between Thailand and Australia in order to hire them to carry personal things to the destination.
 
-Website: http://3.24.204.164:8080/
+Website: http://www.apikritch.com:8083/
 
 Deployed with AWS EC2 using Docker
 
