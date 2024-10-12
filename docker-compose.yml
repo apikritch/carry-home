@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  carry-home-client:
+    image: carry-home:client
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: carry-home-client
+    restart: always
+    ports: ["8083:80"]
+    working_dir: /client
+    volumes:
+      - ./client/dist:/usr/share/nginx/html
+  carry-home-server:
+    image: carry-home:server
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: carry-home-server
+    restart: always
+    ports: ["8003:8081"]
+    working_dir: /server
+    volumes: ["./server/database:/server/database"]
