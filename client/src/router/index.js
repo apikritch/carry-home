@@ -29,6 +29,8 @@ import MyPost from "@/components/MyPost.vue";
 Vue.use(Router);
 
 export default new Router({
+  mode: "history",
+  base: "project/carry-home",
   routes: [
     {
       path: "/",

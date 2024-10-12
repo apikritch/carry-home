@@ -1,10 +1,7 @@
 docker-compose.yml
 
 client/node_modules
-client/Scripts
-client/Dockerfile
-client/default.conf
+client/dist
 
 server/database
 server/node_modules
-server/Dockerfile
